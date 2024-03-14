@@ -15,3 +15,150 @@
     --white-color: rgba(255, 255, 255, 1);
 
 }
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section>.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.section>.action {
+    text-align: center;
+}
+
+.section>.action>a {
+    background-color: var(--accent-color);
+    height: 47px;
+    width: 141px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+
+.newses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 379px;
+}
+
+.news>img {
+    object-fit: cover;
+    width: 100%;
+    height: 214px;
+    border-radius: 6px;
+}
+
+.news>a {
+    text-decoration: none;
+}
+
+.news>a>h4 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.news>p {
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 379px;
+    border-radius: 12px, 12px, 0px, 0px;
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.product>img {
+    object-fit: cover;
+    width: 100%;
+    height: 420px;
+    border-radius: 6px;
+}
+
+.product_bg {
+    background-color: #E2FCF8;
+    padding: 20px;
+}
+
+.product_bg>a {
+    text-decoration: none;
+}
+
+.product_bg>a>h4 {
+
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    color: var(--primary-color);
+
+}
+
+.product_bg>p {
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.product_button {
+    background-color: #1B4852;
+    width: 86px;
+    height: 47px;
+    border-radius: 6px;
+    padding: 18px, 28px;
+    gap: 10px;
+    color: aqua;
+}
+
+.our_partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.our_partner {
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 349px;
+    border-radius: 12px, 12px, 0px, 0px;
+
+}
+.our_partner>img{
+    width: 100%;
+    height: 188px;
+}
+
+
+.our_partner_bg {
+
+    background-color: #1B4852;
+}
