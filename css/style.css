@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+:root {
+    --primary-color: rgba(27, 72, 82, 1);
+    --secondary-color: rgba(226, 252, 248, 1);
+    --accent-color: rgba(42, 242, 209, 1);
+    --white-color: rgba(255, 255, 255, 1);
+
+}
