@@ -82,9 +82,9 @@ window.addEventListener('scroll', function () {
     if (scrollPosition > 500) { // Change 100 to the scroll position where you want the background to change
         //   nav.style.background = '#fff'; // Change to desired background color
         nav.classList.add('white-nav');
-        logo.src = '/assets/logo/black-header-logo.png';
+        logo.src = 'assets/logo/black-header-logo.png';
     } else {
-        logo.src = '/assets/logo/white-header-logo.png';
+        logo.src = 'assets/logo/white-header-logo.png';
         nav.classList.remove('white-nav');
         
     }
