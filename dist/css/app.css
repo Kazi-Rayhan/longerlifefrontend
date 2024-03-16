@@ -479,3 +479,136 @@ footer {
     justify-content: space-between; }
     footer .footer-copywright * {
       color: white; }
+
+.filter_menu {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px; }
+  .filter_menu .filter_menu-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; }
+  .filter_menu .filter_button {
+    width: 129px;
+    height: 47px;
+    padding: 18px, 28px;
+    border-radius: 86px;
+    background-color: #E2FCF8;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    transition: background-color .1s ease-in, color .1s ease-in; }
+    .filter_menu .filter_button:hover {
+      background-color: #1b4852;
+      color: white; }
+  .filter_menu .filter_sort {
+    height: 47px;
+    width: 129px;
+    background-color: white;
+    border: 2px solid #1b4852;
+    border-radius: 6px;
+    transition: background-color .1s ease-in, color .1s ease-in; }
+    .filter_menu .filter_sort:hover {
+      background-color: #1b4852;
+      color: white; }
+
+.load_more {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; }
+  .load_more a {
+    color: #1B4852; }
+    .load_more a i {
+      color: #1B4852; }
+
+.cover-video {
+  position: relative; }
+  .cover-video button {
+    position: absolute;
+    bottom: -10px;
+    right: 45%;
+    z-index: 10px;
+    width: 150px;
+    height: 50px;
+    padding: 18px, 28px;
+    border-radius: 86px;
+    background-color: #2af2d1;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    transition: background-color .1s ease-in, color .1s ease-in; }
+    .cover-video button:hover {
+      background-color: #1b4852;
+      color: white; }
+
+.cover-name {
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #1B4852;
+  margin-right: 20px;
+  margin-top: 30px; }
+
+.massage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px; }
+  .massage h3 {
+    color: #1B4852;
+    font-weight: 600;
+    font-size: 22px; }
+  .massage p {
+    color: #1B4852;
+    font-weight: 500;
+    font-size: 18px; }
+
+.partner_contact {
+  background-color: #1B4852;
+  height: 401px;
+  width: 284px;
+  border-radius: 12px; }
+  .partner_contact figure {
+    text-align: right; }
+
+.news_latter {
+  background-color: #E2FCF8;
+  width: 100%;
+  height: 306px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .news_latter .news_label {
+    color: #1B4852;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px; }
+    .news_latter .news_label i {
+      color: #1B4852;
+      font-weight: 700;
+      font-size: 28px; }
+  .news_latter .news_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px; }
+    .news_latter .news_input input {
+      display: flex;
+      justify-content: center;
+      padding: 10pxs;
+      width: 300px;
+      height: 40px;
+      padding: 18px;
+      border-radius: 6px; }
+    .news_latter .news_input button {
+      background-color: #1B4852;
+      width: 132px;
+      height: 40px;
+      padding: 18px, 28px;
+      border-radius: 6px; }

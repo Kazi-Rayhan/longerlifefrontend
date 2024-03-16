@@ -72,6 +72,43 @@ $(document).ready(function () {
             // instead of a settings object
         ]
     });
+    $(".contact").slick({
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        
+        prevArrow: $('.contact-prev'),
+        nextArrow: $('.contact-next'),
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+
+                }
+            },
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
 });
 
 window.addEventListener('scroll', function () {
@@ -79,7 +116,7 @@ window.addEventListener('scroll', function () {
     var logo = document.getElementById('nav-logo');
     var scrollPosition = window.scrollY;
 
-    if (scrollPosition > 500) { // Change 100 to the scroll position where you want the background to change
+    if (scrollPosition > 100) { // Change 100 to the scroll position where you want the background to change
         //   nav.style.background = '#fff'; // Change to desired background color
         nav.classList.add('white-nav');
         logo.src = 'assets/logo/black-header-logo.png';

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longer Life</title>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist/css/app.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="" class="nav-logo">
+                <img class="img-fluid" id="nav-logo" src="assets/logo/white-header-logo.png" alt="">
+            </a>
+            <div class="nav-lists d-flex">
+                <ul class="nav-list d-none d-md-flex">
+                    <li class="nav-item">
+                        <a href="">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">
+                            <i class="fa fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">
+                            <i class="fa fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">
+                            <i class="fa fa-globe"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item-secondary">
+                        <a data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button"
+                            aria-controls="offcanvasExample">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section id="products-section" class="container section" style="margin-top:80px">
+            <div class="section_heading">
+
+                <h3 class="section_heading-title">
+                    Products
+                </h3>
+            </div>
+            <div class="mt-3" style="border: 2px solid rgb(237, 228, 228);">
+            </div>
+            <div class="filter_menu">
+                <div class="filter_menu-filters">
+
+                    <div class="dropdown ">
+                        <button class="dropdown filter_button" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Filter 1 <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown ">
+                        <button class="dropdown filter_button" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Filter 2 <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown ">
+                        <button class="dropdown filter_button" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Filter 3 <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown ">
+                        <button class="dropdown filter_button" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Filter 4 <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown ">
+                        <button class="dropdown filter_button" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            All Filter <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="dropdown">
+                    <button class=" dropdown filter_sort" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Sort by <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section__body">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="product">
+                            <figure>
+                                <img src="assets/images/product (2).png" alt="">
+                            </figure>
+                            <div class="product_meta">
+                                <a class="product_meta-name" href="">
+                                    <h6>
+                                        NMN Powder 30g
+                                    </h6>
+                                </a>
+                                <p class="product_meta-price">548,-</p>
+                                <div>
+                                    <a class="product_meta-btn" href="">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="product">
+                            <figure>
+                                <img src="assets/images/product (2).png" alt="">
+                            </figure>
+                            <div class="product_meta">
+                                <a class="product_meta-name" href="">
+                                    <h6>
+                                        NMN Powder 30g
+                                    </h6>
+                                </a>
+                                <p class="product_meta-price">548,-</p>
+                                <div>
+                                    <a class="product_meta-btn" href="">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="product">
+                            <figure>
+                                <img src="assets/images/product (2).png" alt="">
+                            </figure>
+                            <div class="product_meta">
+                                <a class="product_meta-name" href="">
+                                    <h6>
+                                        NMN Powder 30g
+                                    </h6>
+                                </a>
+                                <p class="product_meta-price">548,-</p>
+                                <div>
+                                    <a class="product_meta-btn" href="">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="product">
+                            <figure>
+                                <img src="assets/images/product (2).png" alt="">
+                            </figure>
+                            <div class="product_meta">
+                                <a class="product_meta-name" href="">
+                                    <h6>
+                                        NMN Powder 30g
+                                    </h6>
+                                </a>
+                                <p class="product_meta-price">548,-</p>
+                                <div>
+                                    <a class="product_meta-btn" href="">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="product">
+                            <figure>
+                                <img src="assets/images/product (2).png" alt="">
+                            </figure>
+                            <div class="product_meta">
+                                <a class="product_meta-name" href="">
+                                    <h6>
+                                        NMN Powder 30g
+                                    </h6>
+                                </a>
+                                <p class="product_meta-price">548,-</p>
+                                <div>
+                                    <a class="product_meta-btn" href="">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="product">
+                            <figure>
+                                <img src="assets/images/product (2).png" alt="">
+                            </figure>
+                            <div class="product_meta">
+                                <a class="product_meta-name" href="">
+                                    <h6>
+                                        NMN Powder 30g
+                                    </h6>
+                                </a>
+                                <p class="product_meta-price">548,-</p>
+                                <div>
+                                    <a class="product_meta-btn" href="">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="load_more">
+                <a href="">
+                    Load more <i class="fa fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="row">
+                    <div class="col-md-12 col-lg-5 ">
+                        <figure class="footer-logo">
+                            <img src="assets/logo/footer-logo.png" alt="">
+                        </figure>
+
+                        <div class="footer-input">
+                            <label class="footer-input-label" for="">Newsletter</label>
+                            <div class="footer-input-group">
+                                <input type="email" placeholder="E-mail address">
+                                <button>Subscribe</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-lg-7">
+                        <div class="row" style="margin-top: 80px;">
+                            <div class="col-md-6 col-6 col-lg-4">
+                                <div class="footer-text">
+                                    <h5>
+                                        Quick Links
+                                    </h5>
+                                    <ul>
+                                        <li>
+                                            <a href="">Shop now</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Science</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="">About us</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-6 col-lg-4">
+                                <div class="footer-text">
+                                    <h5>
+                                        Our policy
+                                    </h5>
+                                    <ul>
+                                        <li>
+                                            <a href="">Refund policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Terms of service</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Shipping policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="col-md-12 col-lg-4">
+                                <div class="footer-text">
+                                    <h5>LONGERLIFE</h5>
+                                    <address>
+                                        <strong>LongerLife Ltd | 1492118127</strong>
+                                        <br>
+                                        Old Gloucester Street
+                                        LONDON, WC1N 3AX,
+                                        UNITED KINGDOM
+                                        <br>
+                                        <a href="mailto:contact@longerlife.store">contact@longerlife.store</a>
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-icons">
+                            <ul class="footer_socials">
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-facebook  text-light"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-instagram  text-light"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="footer_payment_methods">
+                                <li><img src="assets/footer/Group 55.png" alt=""></li>
+                                <li><img src="assets/footer/Group 56.png" alt=""></li>
+                                <li><img src="assets/footer/Group 57.png" alt=""></li>
+                                <li><img src="assets/footer/Group 58.png" alt=""></li>
+                                <li><img src="assets/footer/Group 59.png" alt=""></li>
+                                <li><img src="assets/footer/Group 60.png" alt=""></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copywright">
+                <p>
+                    © 2024 LongerLife Ltd
+                </p>
+                <a href="">Privacy policy</a>
+            </div>
+        </div>
+    </footer>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close menu-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+            <ul class="side-nav-list">
+                <li class="side-nav-item"><a href="">Shop</a><i class="fa fa-chevron-right"></i></li>
+                <li class="side-nav-item"><a href="">Science</a><i class="fa fa-chevron-right"></i></li>
+                <li class="side-nav-item"><a href="">Partners</a><i class="fa fa-chevron-right"></i></li>
+                <li class="side-nav-item"><a href="">About Us</a><i class="fa fa-chevron-right"></i></li>
+                <li class="side-nav-item"><a href="">Contact</a><i class="fa fa-chevron-right"></i></li>
+            </ul>
+            <div class="nav-lists d-md-none">
+                <ul class="nav-list ">
+                    <li class="nav-item">
+                        <a href="">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">
+                            <i class="fa fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">
+                            <i class="fa fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">
+                            <i class="fa fa-globe"></i>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="dist/js/main.js"></script>
+</body>
+
+</html>
