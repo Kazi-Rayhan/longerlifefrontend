@@ -451,26 +451,28 @@ footer {
       footer .footer-main .footer-icons ul {
         display: flex;
         gap: 8px; }
-    footer .footer-main .footer-text h5 {
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 16px;
-      letter-spacing: 0em;
-      text-align: left;
-      color: white;
-      text-transform: uppercase;
-      margin-bottom: 20px; }
-    footer .footer-main .footer-text ul {
-      list-style: none;
-      margin: 0px;
-      padding: 0px; }
-      footer .footer-main .footer-text ul li a {
-        text-decoration: none;
+    footer .footer-main .footer-text {
+      margin-top: 20px; }
+      footer .footer-main .footer-text h5 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 20px; }
+      footer .footer-main .footer-text ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px; }
+        footer .footer-main .footer-text ul li a {
+          text-decoration: none;
+          color: white; }
+      footer .footer-main .footer-text address {
         color: white; }
-    footer .footer-main .footer-text address {
-      color: white; }
-      footer .footer-main .footer-text address * {
-        color: white; }
+        footer .footer-main .footer-text address * {
+          color: white; }
   footer .footer-copywright {
     margin-top: 20px;
     display: flex;
