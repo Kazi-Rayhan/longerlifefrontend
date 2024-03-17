@@ -58,7 +58,7 @@
     <main>
         <section class="container">
             <div class="cover-video">
-                <video autoplay loop style="height: 540px; width: 100%;" src="/assets/videos/one-man.mp4"></video>
+                <video autoplay loop src="/assets/videos/one-man.mp4"></video>
                 <button>
                     Bestill time
                 </button>
@@ -337,14 +337,7 @@
         </section>
         <section class="container mb-5">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
+
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="/assets/images/Rectangle 25.png" class="d-block w-100" alt="...">
@@ -401,13 +394,100 @@
                     <li class="contact-next"><i class="fa-regular  fa-circle-right"></i></li>
                 </ul>
             </div>
-            <div class="contact-body">
+
+            <div class="section__body">
                 <div class="contacts">
-                    <article class="contact">
-                        <figure class="contact-all">
-                            <img src="/assets/images/Ellipse 8.png" alt="" style="text-align: center;">
+                    <article class="contact-card">
+                        <figure>
+                            <img src="/assets/images/Ellipse 8.png" alt="">
                         </figure>
+                        <div class="mb-2">
+
+                            <h5>Morten Lystad</h5>
+                            <h6>Tittel</h6>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone"></i> <a href="tel:123 45 678">123 45 678</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i> <a href="">navn@firma.no</a>
+                            </li>
+                        </ul>
                     </article>
+                    <article class="contact-card">
+                        <figure>
+                            <img src="/assets/images/Ellipse 8.png" alt="">
+                        </figure>
+                        <div class="mb-2">
+
+                            <h5>Morten Lystad</h5>
+                            <h6>Tittel</h6>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone"></i> <a href="tel:123 45 678">123 45 678</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i> <a href="">navn@firma.no</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="contact-card">
+                        <figure>
+                            <img src="/assets/images/Ellipse 8.png" alt="">
+                        </figure>
+                        <div class="mb-2">
+
+                            <h5>Morten Lystad</h5>
+                            <h6>Tittel</h6>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone"></i> <a href="tel:123 45 678">123 45 678</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i> <a href="">navn@firma.no</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="contact-card">
+                        <figure>
+                            <img src="/assets/images/Ellipse 8.png" alt="">
+                        </figure>
+                        <div class="mb-2">
+
+                            <h5>Morten Lystad</h5>
+                            <h6>Tittel</h6>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone"></i> <a href="tel:123 45 678">123 45 678</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i> <a href="">navn@firma.no</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="contact-card">
+                        <figure>
+                            <img src="/assets/images/Ellipse 8.png" alt="">
+                        </figure>
+                        <div class="mb-2">
+
+                            <h5>Morten Lystad</h5>
+                            <h6>Tittel</h6>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone"></i> <a href="tel:123 45 678">123 45 678</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i> <a href="">navn@firma.no</a>
+                            </li>
+                        </ul>
+                    </article>
+
                 </div>
             </div>
 
@@ -434,7 +514,7 @@
 
 
         </section>
-        <section class="contain">
+        <section class="contain-fluid">
             <div class="row">
                 <div class="news_latter col-md-12 col-lg-5 ">
                     <label class="news_label" for=""><i class="fa fa-envelope"></i> Newsletter</label>
@@ -447,6 +527,8 @@
             </div>
 
         </section>
+
+        
         <section class="container mt-5">
 
             <div class="row massage mb-5">
@@ -466,81 +548,88 @@
                 </div>
             </div>
         </section>
-        <section class="container">
-            <div class="row according-section">
-                <div class=" col-12 col-md-10 col-sm-12">
-                    <div class="according accordion accordion-flush" id="accordionFlushExample">
-                        <h4 class="according-head">Ofte stilte spørsmål</h4>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="according-body collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    Spørsmål 1 <i class="fa-solid fa-angle-down"></i>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion
-                                    body.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="according-body collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    Spørsmål 1 <i class="fa-solid fa-angle-down"></i>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion
-                                    body.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="flush-headingThree">
-                                <button class="according-body collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    Spørsmål 1 <i class="fa-solid fa-angle-down"></i>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion
-                                    body.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="flush-headingFour">
-                                <button class="according-body collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                    aria-controls="flush-collapseFour">
-                                    Spørsmål 1 <i class="fa-solid fa-angle-down"></i>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion
-                                    body.</div>
-                            </div>
-                        </div>
+        <section class="container section">
+            <div class="section_heading">
 
+                <h3 class="section_heading-title">
+                    Ofte stilte spørsmål
+                </h3>
+                
+            </div>
+
+            <div class="section__body">
+                <div class=" accordion accordion-flush" id="accordionFlushExample">
+                    
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="according-body collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Spørsmål 1 <i class="fa-solid fa-angle-down"></i>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                accordion
+                                body.</div>
+                        </div>
                     </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="according-body collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Spørsmål 1 <i class="fa-solid fa-angle-down"></i>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                accordion
+                                body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="according-body collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Spørsmål 1 <i class="fa-solid fa-angle-down"></i>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                accordion
+                                body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="according-body collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Spørsmål 1 <i class="fa-solid fa-angle-down"></i>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                accordion
+                                body.</div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+          
         </section>
-        <section class="contain footer-map ">
+        <section class="container-fluid footer-map ">
             <div class="row map row-cols-1 row-cols-lg-2 row-cols-md-1">
                 <map class="map-design">
                     <iframe

@@ -72,7 +72,7 @@ $(document).ready(function () {
             // instead of a settings object
         ]
     });
-    $(".contact").slick({
+    $(".contacts").slick({
         slidesToShow: 4,
         slidesToScroll: 4,
         
