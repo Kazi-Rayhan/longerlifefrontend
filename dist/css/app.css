@@ -377,7 +377,7 @@
     width: 100%;
     height: 150px;
     gap: 10px;
-    background-color: #1B4852;
+    background-color: #1b4852;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px; }
     .partner .partner_meta .partner_meta-name {
@@ -388,8 +388,8 @@
     .partner .partner_meta .partner_meta-btn {
       text-decoration: none;
       border-radius: 6px;
-      background-color: #E2FCF8;
-      color: #1B4852;
+      background-color: #e2fcf8;
+      color: #1b4852;
       font-weight: 600;
       font-size: 16px;
       width: 140px;
@@ -496,7 +496,7 @@ footer {
     height: 47px;
     padding: 18px, 28px;
     border-radius: 86px;
-    background-color: #E2FCF8;
+    background-color: #e2fcf8;
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
@@ -520,12 +520,13 @@ footer {
   justify-content: center;
   margin-bottom: 50px; }
   .load_more a {
-    color: #1B4852; }
+    color: #1b4852; }
     .load_more a i {
-      color: #1B4852; }
+      color: #1b4852; }
 
 .cover-video {
-  position: relative; }
+  position: relative;
+  padding: 70px; }
   .cover-video button {
     position: absolute;
     bottom: -10px;
@@ -550,7 +551,7 @@ footer {
   font-size: 38px;
   font-weight: 700;
   line-height: 38px;
-  color: #1B4852;
+  color: #1b4852;
   margin-right: 20px;
   margin-top: 30px; }
 
@@ -559,24 +560,25 @@ footer {
   justify-content: center;
   margin-bottom: 0px; }
   .massage h3 {
-    color: #1B4852;
+    color: #1b4852;
     font-weight: 600;
     font-size: 22px; }
   .massage p {
-    color: #1B4852;
+    color: #1b4852;
     font-weight: 500;
     font-size: 18px; }
 
-.partner_contact {
-  background-color: #1B4852;
+.contact {
+  background-color: #1b4852;
   height: 401px;
   width: 284px;
   border-radius: 12px; }
-  .partner_contact figure {
-    text-align: right; }
+  .contact .contact-all {
+    display: flex;
+    text-align: center !important; }
 
 .news_latter {
-  background-color: #E2FCF8;
+  background-color: #e2fcf8;
   width: 100%;
   height: 306px;
   display: flex;
@@ -584,12 +586,12 @@ footer {
   flex-direction: column;
   text-align: center; }
   .news_latter .news_label {
-    color: #1B4852;
+    color: #1b4852;
     font-weight: 700;
     font-size: 28px;
     padding: 10px; }
     .news_latter .news_label i {
-      color: #1B4852;
+      color: #1b4852;
       font-weight: 700;
       font-size: 28px; }
   .news_latter .news_input {
@@ -605,10 +607,79 @@ footer {
       width: 300px;
       height: 40px;
       padding: 18px;
-      border-radius: 6px; }
+      border: 2px solid color #072c35;
+      border-radius: 6px;
+      transition: background-color .1s ease-in, color .1s ease-in; }
+      .news_latter .news_input input:hover {
+        background-color: white;
+        color: #1b4852; }
     .news_latter .news_input button {
-      background-color: #1B4852;
+      background-color: #1b4852;
+      color: #2AF2D1;
       width: 132px;
-      height: 40px;
+      height: 39px;
       padding: 18px, 28px;
-      border-radius: 6px; }
+      border-radius: 6px;
+      transition: background-color .1s ease-in, color .1s ease-in; }
+      .news_latter .news_input button:hover {
+        background-color: white;
+        color: #1b4852; }
+
+.accordion-item {
+  gap: 10px !important; }
+
+.according-head {
+  color: #1b4852;
+  font-size: 28px;
+  font-weight: 700; }
+
+.according-body {
+  background-color: #e2fcf8 !important;
+  width: 1176px !important;
+  height: 70px !important;
+  border-radius: 12px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  color: #1b4852;
+  font-weight: 700;
+  font-size: 22px; }
+  .according-body i {
+    background-color: #1b4852;
+    color: #2AF2D1;
+    border-radius: 50%;
+    padding: 8px; }
+
+.footer-map {
+  background-color: #e2fcf8;
+  height: 500px;
+  width: 100%; }
+  .footer-map .map {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 55px; }
+    .footer-map .map iframe {
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 400px; }
+    .footer-map .map .map-text h5 {
+      color: #1b4852;
+      font-weight: 700; }
+    .footer-map .map .map-text a {
+      color: #1b4852;
+      font-weight: 500; }
+    .footer-map .map .map-text address {
+      color: #1b4852;
+      font-weight: 500; }
+    .footer-map .map .map-text p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #1b4852; }
