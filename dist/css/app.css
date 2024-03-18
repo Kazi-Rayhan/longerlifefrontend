@@ -681,29 +681,37 @@ footer {
     padding: 8px; }
 
 .footer-map {
-  background-color: #e2fcf8; }
+  background-color: #e2fcf8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px; }
+  @media only screen and (max-width: 768px) {
+    .footer-map {
+      grid-template-columns: 1fr; } }
   .footer-map .map {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    padding: 55px; }
+    align-items: center; }
     .footer-map .map iframe {
       border-radius: 10px;
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 90%;
       height: 400px; }
-    .footer-map .map .map-text h5 {
+  .footer-map .map-text {
+    margin-top: 20px; }
+    .footer-map .map-text h5 {
       color: #1b4852;
       font-weight: 700; }
-    .footer-map .map .map-text a {
+    .footer-map .map-text a {
       color: #1b4852;
       font-weight: 500; }
-    .footer-map .map .map-text address {
+    .footer-map .map-text address {
       color: #1b4852;
       font-weight: 500; }
-    .footer-map .map .map-text p {
+    .footer-map .map-text p {
       font-size: 18px;
       font-weight: 400;
       line-height: 24px;
