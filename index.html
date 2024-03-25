@@ -22,7 +22,8 @@
             <div class="nav-lists d-flex">
                 <ul class="nav-list d-none d-md-flex">
                     <li class="nav-item">
-                        <a href="">
+                        <a data-bs-target="#topSearch" data-bs-toggle="offcanvas" href="#topSearch" role="button"
+                            aria-controls="topSearch">
                             <i class="fa fa-search"></i>
                         </a>
                     </li>
@@ -32,7 +33,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="">
+                        <a type="button" data-bs-toggle="offcanvas" href="#offcanvasRight" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                             <i class="fa fa-cart-shopping"></i>
                         </a>
                     </li>
@@ -317,6 +318,20 @@
         </section>
 
     </main>
+
+    <!-- Search offcanvas  -->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="topSearch" aria-labelledby="topSearch">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasTopLabel"></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+            <input type="text" class="form-control" placeholder="Search products">
+        </div>
+    </div>
+    <!--End of search offcanvas  -->
+
+    <!--Side bar  -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
             <button type="button" class="btn-close menu-close text-reset" data-bs-dismiss="offcanvas"
@@ -359,6 +374,19 @@
         </div>
     </div>
 
+    <!--End of side bar  -->
+
+    <!--Cart-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            ...
+        </div>
+    </div>
+    <!--End of cart-->
 
     <footer>
         <div class="container">
