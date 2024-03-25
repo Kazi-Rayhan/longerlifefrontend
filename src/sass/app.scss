@@ -135,6 +135,12 @@
     }
 }
 
+.btn-main{
+    @include primary-btn()
+}
+.btn-aux{
+    @include primary-btn('secondary')
+}
 #offcanvasMenu {
     background-color: $primary-color;
 
@@ -964,4 +970,41 @@ footer {
 
 #topSearch {
     background-color: $primary-color;
+
+}
+.cart-title{
+    font-size: 28px !important;
+    font-weight: thin !important;
+    color: $primary-color !important;
+}
+.cart{
+    width: 30%;
+   
+}
+.product-row{
+    margin-bottom: 10px;
+    border-bottom: 2px solid $primary-color ;
+    border-top: 2px solid $primary-color ;
+
+    padding: 5px;
+    img{
+        width: 150px;
+        object-fit: cover;
+    }
+
+    p{
+        margin: 5px 0px; 
+        padding: 0px;
+    }
+
+    .product-name{
+        color: $primary-color;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .product-price{
+        color: $dark-color;
+        font-weight: 500;
+        font-size:20px;
+    }
 }
