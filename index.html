@@ -33,7 +33,8 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a type="button" data-bs-toggle="offcanvas" href="#offcanvasRight" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <a type="button" data-bs-toggle="offcanvas" href="#offcanvasRight"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                             <i class="fa fa-cart-shopping"></i>
                         </a>
                     </li>
@@ -325,8 +326,12 @@
             <h5 id="offcanvasTopLabel"></h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body ">
-            <input type="text" class="form-control" placeholder="Search products">
+        <div class="offcanvas-body d-flex justify-content-center align-items-center">
+            <div class="w-50 text-center">
+                <h2 class="text-light">Want to find something ?</h2>
+                <input type="text" class="form-control my-2 text-center" placeholder="Search here ...">
+                <button class="btn-aux"><i class="fa fa-search"></i> Search</button>
+            </div>
         </div>
     </div>
     <!--End of search offcanvas  -->
@@ -377,13 +382,138 @@
     <!--End of side bar  -->
 
     <!--Cart-->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-end cart" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
-            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 id="offcanvasRightLabel" class="cart-title">My Cart</h5>
+            <a type="button" class=" text-reset" data-bs-dismiss="offcanvas" aria-label="Close"> <i class="fa fa-times"></i></a>
         </div>
-        <div class="offcanvas-body">
-            ...
+        <div class="offcanvas-body cart-body">
+            <div class="products">
+                <div class="row product-row">
+                    <div class="col-4">
+                        <img src="/assets/images/product (1).png" alt="">
+                    </div>
+                    <div class="col-8">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="product-name">Nmn Powder 30g</p>
+                                <p class="product-price">548 NOK</p>
+                            </div>
+                            <div>
+                                <form action="">
+                                    <button type="btn"  class="btn-close btn-sm "></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-dark ">Update</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row product-row">
+                    <div class="col-4">
+                        <img src="/assets/images/product (2).png" alt="">
+                    </div>
+                    <div class="col-8">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="product-name">Nmn Powder 30g</p>
+                                <p class="product-price">548 NOK</p>
+                            </div>
+                            <div>
+                                <form action="">
+                                    <button type="btn"  class="btn-close btn-sm p-0"></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-dark">Update</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+
+            <div class="input-group">
+                <input type="text" placeholder="Enter coupon code" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-dark "> <i class="fa fa-scissors"></i> Get Discount</button>
+                </div>
+            </div>
+
+            <table class="table mt-5">
+                <tr>
+                    <th>
+                        Subtotal 
+                    </th>
+                    <td>
+                        <span cl>
+                            1000 NOK
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        mva 
+                    </th>
+                    <td>
+                        <span cl>
+                            47 NOK
+                        </span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        Totalt 
+                    </th>
+                    <td>
+                        <span cl>
+                            5792 NOK
+                        </span>
+                    </td>
+                </tr>
+
+            </table>
+            <br>
+       
+            <h5>
+                Shipping :
+            </h5>
+            <ul>
+                <li>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="shipping" id="Bring" />
+                        <label class="form-check-label" for="Bring"> Bring </label>
+                    </div>
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            type="radio"
+                            name="shipping"
+                            id="FedEx"
+                            checked
+                            
+                        />
+                        <label class="form-check-label" for="FedEx">
+                           FedEx
+                        </label>
+                    </div>
+                    
+                </li>
+            </ul>
+            <br>
+            
+            <div class="d-grid gap-2">
+                <a href="" class="btn-outline-dark btn btn-main btn-lg w-100" ><i class="fa fa-undo"></i> Clear Cart</a>
+                <a href="" class="btn-outline-dark btn btn-main btn-lg w-100" ><i class="fa fa-check"></i> Go To Checkout</a>
+            </div>
         </div>
     </div>
     <!--End of cart-->
