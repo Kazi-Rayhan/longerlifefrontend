@@ -553,8 +553,11 @@
   .product-ratting li {
     display: inline-block;
     margin: 0 -2px;
-    color: rgb(202, 148, 0) !important;
+    /* color: rgb(202, 148, 0) !important; */
     font-size: 12px;
+  }
+  .product-ratting ul li a i{
+    color: rgb(255, 203, 59) !important;
   }
 
   .slick-slider {
